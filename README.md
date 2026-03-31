@@ -88,7 +88,7 @@ An autonomous turret system mounted on an omnidirectional car. Uses **YOLOv8** c
 | **Drive** | 4× yellow TT DC motors + L298N driver |
 | **IMU** | MPU-6050 (I2C 0x68) |
 | **Chassis** | 4× omni wheels |
-| **Power** | 2S LiPo 7.4V + 5V BEC for Pi |
+| **Power** | 4S LiPo 11.1V + 5V BEC for Pi |
 
 > **Note:** All GPIO/hardware code is included but commented out. The project runs fully in **simulation mode** on a laptop — no hardware required to test.
 
