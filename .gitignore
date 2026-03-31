@@ -1,0 +1,27 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# YOLOv8 model weights (large files, auto-downloaded)
+*.pt
+*.onnx
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+
+# rosbridge (cloned dependency, not our code)
+src/rosbridge_suite/
